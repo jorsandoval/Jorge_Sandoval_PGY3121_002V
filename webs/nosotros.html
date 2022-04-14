@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Cencobella</title>
+    <title>Contacto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/style_index.css" />
+    <link type="text/css" rel="stylesheet" href="/css/style_contacto.css" />
 </head>
 
 <body>
@@ -26,34 +26,31 @@
                 </ul>
             </nav>
         </div>
-     </nav-tab>   
-        <div class="Contenedor-2">
-            <img src="..\img\compra_inicio.png" alt="Imagen de persona comprando con su telefono">
-        </div>
+     </nav-tab>
+     <div class="Contenedor-2">
+        <img src="/img/contacto.png" alt="Imagen para el contacto">
+    </div>
         <div class="Contenedor-3">
             <div class="P1">
-                <div class="img">
-                    <img src="..\img\Polera.jfif" alt="Imagen de polera color negro talla m">
-                </div>
-                <div class="desc">
-                    <h3>Polera 100% Algodón Orgánico Cuello V</h3>
-                </div>
-            </div>
-            <div class="P2">
-                <div class="img">
-                    <img src="..\img\Zapatilla.jfif" alt="Imagen de zapatilla Puma color rojo">
-                </div>
-                <div class="desc">
-                    <h3>Anzarun Zapatilla Urbana Hombre</h3>
-                </div>
-            </div>
-            <div class="P1">
-                <div class="img">
-                    <img src="..\img\Televisor.jfif" alt="Imagen de Televisor 50 pulgadas">
-                </div>
-                <div class="desc">
-                    <h3>LED Samsung 50" TU7090 Crystal UHD 4K Smart</h3>
-                </div>
+                <form>
+                    <label >Nombre Completo: </label>
+                    <input type="text" maxlength="50" placeholder="Nombre Completo">
+                </form>
+                <form>
+                    <label>Correo: </label>
+                    <input type="email" maxlength="70" placeholder="Correo Electronico">
+                </form>
+                <form>
+                    <label>Teléfono: </label>
+                    <input type="tel" maxlength="70" placeholder="Teléfono de 9 digitos">
+                </form>
+                <form>
+                    <label>Mensaje: </label>
+                    <br>
+                    <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+                </form>
+                <br>
+                <button>Enviar</button>
             </div>
         </div>
     </div>
