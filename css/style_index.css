@@ -4,24 +4,25 @@
     padding: 0px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     width: 100%;
+    /*background-color: #5BAC6B ;*/
 }
-
-.menu{
+.naav{
+    margin: 10px;
     width: 100%;
     height: 80%;
-    display: inline-block;
-}
-.logo{
-    width: 100%;
-    height: 80%;
-    display: inline-block;
     display: flex;
 }
-/*.menu {
-    width: 100%;
-    height: 50px;
-    background-color: darkgrey;
-}*/
+.menu{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.logo{
+    width: 40%;
+    height: 80%;
+    display: flex;
+}
 
 li{
     text-decoration: none;
@@ -29,34 +30,44 @@ li{
     overflow: hidden;
     display: inline-block;
 }
-img{
-    object-fit: cover;
-}
+
 
 ul{
     padding: 30px;
     list-style-type: none;
 }
 
+.Contenedor-2{
+    margin: 10px;
+}
+
 .Contenedor-3{
     margin: 10px;
 }
 
-.P1{
-    display: inline-block;
-    object-fit: cover;
-    width: 30%;
-    height: 50px;
+img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
 }
 
+.P1{
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    margin: 10px;
+
+}
 
 .P2{
     display: inline-block;
-    object-fit: cover;
     width: 30%;
+    height: 50px;
+    margin: 10px;
 }
 .P3{
     display: inline-block;
-    object-fit: cover;
     width: 30%;
+    height: 50px;
+    margin: 10px;
 }
