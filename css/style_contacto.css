@@ -81,15 +81,14 @@ h1{
 }
 
 
-
 .Contenedor-2{
     width: 100%;
     height: 400px;
+    text-align: center;
     background-color: #00A299;
 }
 
 .Contenedor-2 img{
     max-height:100%;
     max-width: 100%;
-
 }
